@@ -10,18 +10,18 @@ class LarryBlock < Ebooks::Bot
 
   def on_follow(user)
     name = user.screen_name
-    unless bot.twitter.friendship?(bot.username, name)
-      if @@undesirables.any? { |yuck| bot.twitter.friendship?(name, yuck) }
-        bot.twitter.block(user)
+    unless @bot.twitter.friendship?(@bot.username, name)
+      if @@undesirables.any? {|yuck| @bot.twitter.friendship?(name, yuck)}
+        @bot.twitter.block(user)
       end
     end
   end
 
   def on_mention(tweet)
     name = tweet.user.screen_name
-    unless bot.twitter.friendship?(bot.username, name)
-      if @@undesirables.any? { |yuck| bot.twitter.friendship?(name, yuck) }
-        bot.twitter.block(user)
+    unless @bot.twitter.friendship?(@bot.username, name)
+      if @@undesirables.any? {|yuck| @bot.twitter.friendship?(name, yuck)}
+        @bot.twitter.block(user)
       end
     end
   end
