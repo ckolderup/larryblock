@@ -2,12 +2,12 @@
 
 ## What This Is
 
-Recently some people I know have suffered from harrassment on Twitter from
+Recently some people I know have suffered from harassment on Twitter from
 various groupies of one Twitter personality or another. 9 times out of 10, the
 user is following a person the victim doesn't have any real overlapping social
 circles with; one or more public figures who may or may not have instigated the
-harrassment but nonetheless the fact that they are followed is a common shared
-attribute among all the harrassers.
+harassment but nonetheless the fact that they are followed is a common shared
+attribute among all the harassers.
 
 This bot runs on a web server somewhere, tied to a person's Twitter account, and
 whenever someone follows or mentions them, it checks to see the following things:
