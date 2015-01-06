@@ -1,21 +1,13 @@
 {
   "name": "LarryBlock",
-  "description": "A Twitter bot that blocks users who interact with you and
-    follow certain Twitter accounts",
+  "description": "A Twitter bot that blocks users who interact with you and follow certain Twitter accounts",
   "repository": "https://github.com/ckolderup/larryblock",
   "env": {
-    "ANYONE_FOLLOWING": { "description": "A comma-separated list of Twitter
-      screen names. If someone who mentions or follows you follows anyone
-      on that list, it will block them automatically."},
-    "TWITTER_USERNAME": { "description": "The Twitter username you want to use
-      this tool with"},
-    "TWITTER_CONSUMER_KEY": { "description": "Twitter OAuth Consumer Key from
-      apps.twitter.com"},
-    "TWITTER_CONSUMER_SECRET": { "description": "Twitter OAuth Consumer Secret
-      from apps.twitter.com"},
-    "TWITTER_ACCESS_TOKEN": { "description": "Twitter OAuth Access Token from
-      apps.twitter.com (generate one after making your app read & write)"},
-    "TWITTER_ACCESS_TOKEN_SECRET": { "description": "Twitter OAuth Access Token
-      from apps.twitter.com (generate one after making your app read & write)"}
+    "ANYONE_FOLLOWING": { "description": "A comma-separated list of Twitter screen names. If someone who mentions or follows you follows anyone on that list, it will block them automatically."},
+    "TWITTER_USERNAME": { "description": "The Twitter username you want to use this tool with"},
+    "TWITTER_CONSUMER_KEY": { "description": "Twitter OAuth Consumer Key from apps.twitter.com"},
+    "TWITTER_CONSUMER_SECRET": { "description": "Twitter OAuth Consumer Secret from apps.twitter.com"},
+    "TWITTER_ACCESS_TOKEN": { "description": "Twitter OAuth Access Token from apps.twitter.com (generate one after making your app read & write)"},
+    "TWITTER_ACCESS_TOKEN_SECRET": { "description": "Twitter OAuth Access Token from apps.twitter.com (generate one after making your app read & write)"}
   }
 }
