@@ -12,8 +12,8 @@ attribute among all the harrassers.
 This bot runs on a web server somewhere, tied to a person's Twitter account, and
 whenever someone follows or mentions them, it checks to see the following things:
 
-1) Are they not currently being followed by the person running the bot on their account?
-2) Do they follow any of a list of specific Twitter users?
+1. Are they not currently being followed by the person running the bot on their account?
+2. Do they follow any of a list of specific Twitter users?
 
 If both conditions are met, the bot will block these users with extreme prejudice.
 
