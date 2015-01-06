@@ -27,7 +27,7 @@ class LarryBlock < Ebooks::Bot
   end
 end
 
-LarryBlock.new("larryblock") do |bot|
+LarryBlock.new(ENV['TWITTER_USERNAME']) do |bot|
   bot.access_token = ENV['TWITTER_ACCESS_TOKEN']
   bot.access_token_secret = ENV['TWITTER_ACCESS_TOKEN_SECRET']
 end
