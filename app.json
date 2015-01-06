@@ -9,5 +9,8 @@
     "TWITTER_CONSUMER_SECRET": { "description": "Twitter OAuth Consumer Secret from apps.twitter.com"},
     "TWITTER_ACCESS_TOKEN": { "description": "Twitter OAuth Access Token from apps.twitter.com (generate one after making your app read & write)"},
     "TWITTER_ACCESS_TOKEN_SECRET": { "description": "Twitter OAuth Access Token from apps.twitter.com (generate one after making your app read & write)"}
+  },
+  "scripts": {
+    "postdeploy": "bundle exec foreman start"
   }
 }
