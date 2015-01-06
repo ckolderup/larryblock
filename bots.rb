@@ -21,7 +21,7 @@ class LarryBlock < Ebooks::Bot
     name = tweet.user.screen_name
     unless twitter.friendship?(username, name)
       if @@undesirables.any? {|yuck| twitter.friendship?(name, yuck)}
-        twitter.block(user)
+        twitter.block(tweet.user)
       end
     end
   end
